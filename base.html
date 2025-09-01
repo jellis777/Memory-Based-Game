@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Based Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="title">Memory Based Game</h2>
+    <div class="diff-container">
+      <label for="difficulty">Select the Difficulty:
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      </label>
+      <button class="new-number">New Number</button>
+    </div>
+    <h3 id="number"></h3>
+    <label for="guess">Type in number from memory: <input type="text" id="guess" name="guess"></label>
+<button class="submit">Submit</button>
+    <p id="result"></p>
+    <div class="bottom-cont">
+    <h3 class="score">Score: <span class="scoreNum">0</span></h3>
+    <button id="start-over">Start Over</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
